@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tae and Eva - K-pop Article</title>
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            margin-top: 40px;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        /* BTS Member Profiles */
+        .profile-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .profile {
+            width: 300px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+
+        .profile img {
+            width: 200px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        /* Image Slider */
+        .image-slider {
+            display: flex;
+            overflow: hidden;
+            width: 100%;
+            margin-top: 20px;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .image-slider img {
+            width: 200px;
+            height: 200px;
+            transition: transform 0.5s;
+        }
+
+        /* Auto-slide Animation */
+        @keyframes slide {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        .image-slider.active {
+            animation: slide 5s infinite;
+        }
+   </style>
+</head>
+<body>
+    <header>
+        <h1>Tae and Eva - K-pop Article</h1>
+    </header>
+
+    <div>
+        <h2>Welcome to the K-pop Article</h2>
+        <p>BTS, also known as Bangtan Sonyeondan or Bulletproof Boy Scouts, is a South Korean boy band that has gained immense popularity worldwide.</p>
+        <!-- Add more content about BTS or K-pop here -->
+    </div>
+
+    <!-- BTS Member Profiles -->
+   <h2>BTS Member Profiles</h2>
+    <div class="profile-container">
+        <!-- RM -->
+        <div class="profile">
+            <img src="BTS-Proof-Concept-Photos-documents-12(1).jpeg" alt="RM">
+            <h4>Name: RM</h4>
+            <p>Birthdate: September 12, 1994</p>
+            <p>Role: Leader, Rapper</p>
+            <p>MBTI: ENFP</p>
+            <p>Age: 28</p>
+            <p>Solo Music: "mono."</p>
+        </div>
+
+        <!-- Jin -->
+        <div class="profile">
+            <img src="BTS-Proof-Concept-Photos-documents-9(1).jpeg" alt="Jin">
+            <h4>Name: Jin</h4>
+            <p>Birthdate: December 4, 1992</p>
+            <p>Role: Vocalist</p>
+            <p>MBTI: INTP</p>
+            <p>Age: 29</p>
+            <p>Solo Music: "Abyss"</p>
+        </div>
+
+        <!-- Suga -->
+        <div class="profile">
+            <img src="BTS-Proof-Concept-Photos-documents-13(1).jpeg" alt="Suga">
+            <h4>Name: Suga</h4>
+            <p>Birthdate: March 9, 1993</p>
+            <p>Role: Rapper</p>
+            <p>MBTI: INFP</p>
+            <p>Age: 29</p>
+            <p>Solo Music: "Agust D"</p>
+        </div>
+
+        <!-- J-Hope -->
+        <div class="profile">
+            <img src="BTS-Proof-Concept-Photos-documents-14(1).jpeg" alt="J-Hope">
+            <h4>Name: J-Hope</h4>
+            <p>Birthdate: February 18, 1994</p>
+            <p>Role: Rapper, Dancer</p>
+            <p>MBTI: ESFJ</p>
+            <p>Age: 28</p>
+            <p>Solo Music: "Hope World"</p>
+        </div>
+
+        <!-- Jimin -->
+        <div class="profile">
+            <img src="BTS-Proof-Concept-Photos-documents-10(1).jpeg" alt="Jimin">
+            <h4>Name: Jimin</h4>
+            <p>Birthdate: October 13, 1995</p>
+            <p>Role: Vocalist, Dancer</p>
+            <p>MBTI: ESFP</p>
+            <p>Age: 26</p>
+            <p>Solo Music: "Promise"</p>
+        </div>
+
+        <!-- V -->
+        <div class="profile">
+            <img src="BTS-Proof-Concept-Photos-documents-8(2).jpeg" alt="V">
+            <h4>Name: V</h4>
+            <p>Birthdate: December 30, 1995</p>
+            <p>Role: Vocalist</p>
+            <p>MBTI: ISFP</p>
+            <p>Age: 26</p>
+            <p>Solo Music: "Winter Bear"</p>
+        </div>
+
+        <!-- Jungkook -->
+        <div class="profile">
+            <img src="BTS-Proof-Concept-Photos-documents-11(1).jpeg" alt="Jungkook">
+            <h4>Name: Jungkook</h4>
+            <p>Birthdate: September 1, 1997</p>
+            <p>Role: Vocalist, Dancer, Maknae</p>
+            <p>MBTI: ISFP</p>
+            <p>Age: 24</p>
+            <p>Solo Music: "Euphoria"</p>
+        </div>
+    </div>
+
+    <!-- Image Slide -->
+    <h2>BTS Image Slide</h2>
+    <div class="image-slider">
+        <img src="BTS-Proof-Concept-Photos-documents-8(2).jpeg" alt="BTS Image 1">
+        <img src="BTS-Proof-Concept-Photos-documents-9(1).jpeg" alt="BTS Image 2">
+        <img src="BTS-Proof-Concept-Photos-documents-10(1).jpeg" alt="BTS Image 3">
+        <img src="BTS-Proof-Concept-Photos-documents-11(1).jpeg" alt="BTS Image 4">
+        <img src="BTS-Proof-Concept-Photos-documents-12(1).jpeg" alt="BTS Image 5">
+        <img src="BTS-Proof-Concept-Photos-documents-13(1).jpeg" alt="BTS Image 6">
+        <img src="BTS-Proof-Concept-Photos-documents-14(1).jpeg" alt="BTS Image 7">
+    </div>
+</body>
+</html>
